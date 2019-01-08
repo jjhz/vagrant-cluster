@@ -1,18 +1,18 @@
 
 ---
-- name: node01
+- name: node00
   box: bento/centos-7.2
   cpus: 2
   ram: 2048
   ip: 192.168.56.101
   port: 10122
-- name: node02
+- name: node01
   box: bento/centos-7.2
   cpus: 2
   ram: 2048
   ip: 192.168.56.102
   port: 10222
-- name: node03
+- name: node02
   box: bento/centos-7.2
   cpus: 2
   ram: 2048
